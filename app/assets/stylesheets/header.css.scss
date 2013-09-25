@@ -1,0 +1,49 @@
+#header {
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-width: 1040px;
+  overflow: hidden;
+  z-index: 1000;
+  nav {
+    width: 1040px;
+    margin: 0 auto;
+    ul {
+      display: inline-block;
+      padding: 0;
+      li {
+        display: inline-block;
+        text-align: center;
+      }
+    }
+  }
+  .gnb {
+    height: 75px;
+    nav ul.main li {
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav ul.member li {
+      font-size: 10pt;
+      margin: 0 10px;
+    }
+    nav ul.social li {
+      margin: 0;
+    }
+  }
+
+  .snb {
+    background: image-url("pattern_snb_bg.png") repeat-x left top;
+    height: 50px;
+    nav ul li {
+      margin: 0 20px;
+      a, a:visited {
+        font-size: 10pt;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+    }
+  }
+}

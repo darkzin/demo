@@ -1,0 +1,199 @@
+// Place all the styles related to the demo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.demo {
+  .slider {
+    margin-top: 75px;
+    ul li {
+      height: 450px;
+    }
+  }
+
+  .first-row, .second-row, .third-row, .fourth-row, .fifth-row {
+    text-align: center;
+    .col1, .col2, .col3, .col4 {
+      display: inline-block;
+    }
+    .content, .title {
+      width: 960px;
+      margin: 0 auto;
+    }
+
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  .first-row {
+    .col1, .col2, .col3, .col4 {
+      width: 212px;
+      margin-left: 37px;
+      h1 {
+        font-size: 16px;
+        margin-top: 0;
+      }
+      h2 {
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 2px;
+        margin-top: 10px;
+      }
+      ul li {
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+    }
+
+    .col1 {
+      margin-left: 0;
+    }
+  }
+
+  .second-row {
+    background-color: #FAFAFA;
+    .title {
+      h1 {
+        margin: 0;
+        display: inline-block;
+        background-color: #fafafa;
+        padding: 0 20px;
+        strong {
+          color: #5A86C3;
+        }
+      }
+      h2 {
+        font-size: 15pt;
+        margin: 0;
+        margin-top: 5px;
+      }
+    }
+
+    .content {
+      border-top: 1px solid rgb(0, 0, 0);
+      padding-top: 90px;
+      margin-top: -58px;
+      .col1, .col2, .col3 {
+        margin-left: 30px;
+        h1 {
+          font-size: 16pt;
+          text-align: left;
+        }
+        section {
+          position: relative;
+          ul {
+            padding: 0;
+            text-align: left;
+            font-size: 12px;
+          }
+          a {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            font-size: 10pt;
+          }
+        }
+      }
+
+      .col1 {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .third-row {
+    background-color: #30434D;
+    h1 {
+      text-align: left;
+      color: white;
+    }
+    section {
+      width: 960px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  .fourth-row {
+    .title {
+      text-align: left;
+    }
+    .content {
+      section {
+        margin-left: 36px;
+        text-align: left;
+        width: 205px;
+        vertical-align: top;
+        h1 {
+          width: 100%;
+          font-size: 11pt;
+          margin: 0;
+        }
+        h2 {
+          width: 100%;
+          font-size: 10pt;
+          margin: 0;
+          font-weight: normal;
+        }
+      }
+      .col1 {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .fifth-row {
+    .content {
+      article {
+        margin-left: 36px;
+        text-align: left;
+        width: 205px;
+        vertical-align: top;
+        h1 {
+          width: 100%;
+          font-size: 11pt;
+          margin: 0;
+
+          a {
+            float: right;
+          }
+        }
+
+
+        h2 {
+          width: 100%;
+          font-size: 10pt;
+          margin: 0;
+          font-weight: normal;
+        }
+
+        ul {
+          padding: 0;
+          li {
+            h3 {
+              font-size: 10pt;
+            }
+            p {
+              font-size: 9pt;
+            }
+          }
+        }
+      }
+
+      .youtube {
+        ul li {
+          a {
+            float: left;
+          }
+        }
+      }
+      .col1 {
+          margin-left: 0;
+      }
+    }
+  }
+}
