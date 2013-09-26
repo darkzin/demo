@@ -20,29 +20,59 @@
     }
   }
   .gnb {
-    height: 75px;
-    nav ul.main li {
-      margin: 0 20px;
-      font-weight: bold;
+    height: 76px;
+    a.logo{
+      height:36px;
+      display:inline-block;
+      img{
+       margin-top:-10px;
+      }
+    }
+    nav ul{
+      display:inline-block;
+      height:36px;
+      vertical-align:middle;
+      margin:16px 0;
+      margin-top:30px;
+    }
+    nav ul.main{
+      margin-left:30px;
+      li {
+        margin: 0 20px;
+        font-weight: bold;
+	font-size:15px;
+      }
     }
     nav ul.member li {
-      font-size: 10pt;
+      font-size: 9pt;
       margin: 0 10px;
     }
-    nav ul.social li {
-      margin: 0;
+    nav ul.social{
+       li {
+	margin: 0;
+	}
+       li.facebook{
+	 margin-left: 0px;
+	margin-right: 10px;
+       }
     }
   }
 
   .snb {
     background: image-url("pattern_snb_bg.png") repeat-x left top;
+    border:0px;
+    text-align:center;
     height: 50px;
-    nav ul li {
-      margin: 0 20px;
-      a, a:visited {
-        font-size: 10pt;
-        color: rgb(255, 255, 255);
-        text-decoration: none;
+    nav ul {
+      margin:12px 0; 
+      li {
+	margin: 0 20px;
+	a, a:visited {
+	  font-size: 13pt;
+	  font-weight:none;
+	  color: rgb(255, 255, 255);
+	  text-decoration: none;
+	}
       }
     }
   }

@@ -1,0 +1,45 @@
+#footer{
+  border-top:1px solid rgb(191,191,191);
+  
+  .widget{
+
+    .how-to-come{
+      display:inline-block;
+
+      a{
+	margin-right:50px;
+      }
+    }
+
+
+    .time{
+      display:inline-block;
+
+	
+      
+    }
+
+
+    .call{
+      display:inline-block;
+    }
+
+
+    .title{
+      font-weight:bold;
+      font-size: 18px;
+      margin-right:15px;
+    }
+
+  }
+
+  .last-row{
+
+  }
+
+  a:link {text-decoration:none; color:black}
+  a:visited {text-decoration:none; color:black}
+  a:hover {text-decoration:none; color:blue}
+  a:active {text-decoration:none; color:black}
+
+}
