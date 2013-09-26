@@ -1,7 +1,7 @@
-header#header
-  .gnb.black
+header#header.white-white
+  .gnb.white
     nav role="gnb"
-      = link_to image_tag("logo_splant.png"), root_path, class: "logo"
+      = link_to image_tag("logo_splant_white.png"), root_path, class: "logo"
       ul.main
         li.use-guide
           = link_to "이용안내"
@@ -25,8 +25,8 @@ header#header
           = link_to image_tag("icon_facebook.png"), "#"
         li.twitter
           = link_to image_tag("icon_twitter.png"), "#"
-
-  .snb.white
+  .menu-bar
+  .snb
     nav role="snb"
       ul
         li

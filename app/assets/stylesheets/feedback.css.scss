@@ -27,13 +27,9 @@
   }
 
   section {
-    a, a:visited {
-      color: rgb(0, 0, 0);
-      text-decoration: none;
+    ul li a:hover {
+      //display: inline-block;
+      //background-color: rgb(220, 220, 220);
     }
-  }
-
-  section:hover {
-    background-color: rgb(220, 220, 220);
   }
 }
