@@ -236,23 +236,70 @@
     overflow:hidden;
     margin-bottom:30px;
     p {
-      color:rgb(11,11,11);
-      margin:6px 0px 30px;
-      line-height:1.4em;
+      font-size:13px;
+      color:rgb(71,71,71);
+      margin:15px 0px 30px;
+      line-height:1.5em;
     }
   }
       }
 
       .youtube {
         ul li {
+    display:block;
+    margin:0px 0px 26px;
           a {
+      img{display: block;
+      margin-right:7px;
+      }
             float: left;
           }
+
+    p{
+      font-weight:bold;
+      font-size:13px;
+      margin:0px;
+    }
+
+    p:last-child{
+      font-size: 9pt;
+      font-weight:none;
+      color:gray;
+    }
+
+
         }
+        li:last-child{
+    margin: 0px;
+  }
       }
       .col1 {
-          margin-left: 0;
+          margin-left:0px;
       }
+
+      .after{
+  ul li{
+    display:block;
+    height:100px;
+    overflow:hidden;
+    border-bottom:1px dashed rgb(211,211,211);
+    margin-bottom:12px;
+    padding-bottom:12px;
+    h3{
+      margin:0px 0px 5px;
+      color:#448DD3;
+    }
+    p{
+      margin:5px 0px;
+
+    }
+    p:last-child{
+      color:gray;
+    }
+  }
+      }
+
+
     }
   }
 }
