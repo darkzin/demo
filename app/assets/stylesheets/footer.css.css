@@ -1,0 +1,26 @@
+#footer {
+  border-top: 1px solid #bfbfbf; }
+  #footer .widget .how-to-come {
+    display: inline-block; }
+    #footer .widget .how-to-come a {
+      margin-right: 50px; }
+  #footer .widget .time {
+    display: inline-block; }
+  #footer .widget .call {
+    display: inline-block; }
+  #footer .widget .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 15px; }
+  #footer a:link {
+    text-decoration: none;
+    color: black; }
+  #footer a:visited {
+    text-decoration: none;
+    color: black; }
+  #footer a:hover {
+    text-decoration: none;
+    color: blue; }
+  #footer a:active {
+    text-decoration: none;
+    color: black; }

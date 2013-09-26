@@ -1,0 +1,15 @@
+.demo h1 a, .demo h1 a:visited {
+  color: black;
+  text-decoration: none; }
+.demo h1 a:hover {
+  color: #0599D9; }
+.demo ul li a, .demo ul li a:visited {
+  color: black;
+  text-decoration: none; }
+.demo ul li a:hover {
+  text-decoration: underline; }
+.demo section a, .demo section a:visited {
+  color: black;
+  text-decoration: none; }
+.demo section:hover {
+  background-color: gainsboro; }

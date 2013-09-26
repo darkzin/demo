@@ -1,0 +1,59 @@
+#header {
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-width: 1040px;
+  overflow: hidden;
+  z-index: 1000; }
+  #header nav {
+    width: 1040px;
+    margin: 0 auto; }
+    #header nav ul {
+      display: inline-block;
+      padding: 0; }
+      #header nav ul li {
+        display: inline-block;
+        text-align: center; }
+  #header .gnb {
+    height: 76px; }
+    #header .gnb a.logo {
+      height: 36px;
+      display: inline-block; }
+      #header .gnb a.logo img {
+        margin-top: -10px; }
+    #header .gnb nav ul {
+      display: inline-block;
+      height: 36px;
+      vertical-align: middle;
+      margin: 16px 0;
+      margin-top: 30px; }
+    #header .gnb nav ul.main {
+      margin-left: 30px; }
+      #header .gnb nav ul.main li {
+        margin: 0 20px;
+        font-weight: bold;
+        font-size: 15px; }
+    #header .gnb nav ul.member li {
+      font-size: 9pt;
+      margin: 0 10px; }
+    #header .gnb nav ul.social li {
+      margin: 0; }
+    #header .gnb nav ul.social li.facebook {
+      margin-left: 0px;
+      margin-right: 10px; }
+  #header .snb {
+    background: image-url("pattern_snb_bg.png") repeat-x left top;
+    border: 0px;
+    text-align: center;
+    height: 50px; }
+    #header .snb nav ul {
+      margin: 12px 0; }
+      #header .snb nav ul li {
+        margin: 0 20px; }
+        #header .snb nav ul li a, #header .snb nav ul li a:visited {
+          font-size: 13pt;
+          font-weight: none;
+          color: white;
+          text-decoration: none; }

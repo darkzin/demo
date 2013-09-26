@@ -21,10 +21,10 @@ $(document).ready(function() {
   $(".bxslider").bxSlider();
 
   $(".gnb ul li").on('mouseenter', function(){
-      $("#header").stop().animate({'height': '125px'}, 900, 'easeOutExpo');
+      $("#header").stop().animate({'height': '130px'}, 900, 'easeOutExpo');
   });
   $("#header").on('mouseleave', function(){
-    if($("#header").height() >= 125)
+    if($("#header").height() >= 130)
       $("#header").stop().animate({'height': '75px'}, 900, 'easeOutExpo');
   });
 

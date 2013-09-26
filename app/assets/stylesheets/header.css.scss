@@ -25,7 +25,7 @@
       height:36px;
       display:inline-block;
       img{
-       margin-top:-10px;
+        margin-top:-10px;
       }
     }
     nav ul{
@@ -40,7 +40,7 @@
       li {
         margin: 0 20px;
         font-weight: bold;
-	font-size:15px;
+        font-size:15px;
       }
     }
     nav ul.member li {
@@ -48,13 +48,13 @@
       margin: 0 10px;
     }
     nav ul.social{
-       li {
-	margin: 0;
-	}
-       li.facebook{
-	 margin-left: 0px;
-	margin-right: 10px;
-       }
+      li {
+        margin: 0;
+      }
+      li.facebook{
+        margin-left: 0px;
+        margin-right: 10px;
+      }
     }
   }
 
@@ -64,16 +64,45 @@
     text-align:center;
     height: 50px;
     nav ul {
-      margin:12px 0; 
+      margin:12px 0;
       li {
-	margin: 0 20px;
-	a, a:visited {
-	  font-size: 13pt;
-	  font-weight:none;
-	  color: rgb(255, 255, 255);
-	  text-decoration: none;
-	}
+        margin: 0 20px;
+        a, a:visited {
+          font-size: 13pt;
+          font-weight:none;
+          color: rgb(255, 255, 255);
+          text-decoration: none;
+        }
       }
     }
+  }
+}
+
+#header {
+  .gnb.black {
+    background-color: #404040;
+    ul li a {
+      color: white;
+    }
+  }
+
+  .snb.white {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: none;
+    border-bottom: 1px solid #47C4FA;
+    -webkit-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0px 4px 5px rgba(50, 50, 50, 0.2);
+    box-shadow:         0px 4px 5px rgba(50, 50, 50, 0.2);
+    nav ul li a {
+      color: rgb(61, 61, 61);
+      }
+
+    a:hover {
+      color: #0599D9;
+      }
+  }
+
+  .snb.top-border {
+    border-top: 1px solid #47C4FA;
   }
 }

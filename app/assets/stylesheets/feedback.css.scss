@@ -1,0 +1,39 @@
+.demo {
+  #header .snb nav {
+    ul li {
+      a:hover {
+
+      }
+    }
+  }
+
+  h1 {
+    a, a:visited {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+    a:hover {
+      color: #0599D9;
+    }
+  }
+  ul li {
+    a, a:visited {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  section {
+    a, a:visited {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+  }
+
+  section:hover {
+    background-color: rgb(220, 220, 220);
+  }
+}

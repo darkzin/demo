@@ -1,24 +1,32 @@
 header#header
-  .gnb
+  .gnb.black
     nav role="gnb"
       = link_to image_tag("logo_splant.png"), root_path, class: "logo"
       ul.main
-        li.use-guide 이용안내
-        li.medical-office 진료과
-        li.special-center 특성화센터
-        li.introduction 병원소개
-        li.news 병원소식
-        li.customer-service 고객서비스
+        li.use-guide
+          = link_to "이용안내"
+        li.medical-office
+          = link_to "진료과"
+        li.special-center
+          = link_to "특성화센터"
+        li.introduction
+          = link_to "병원소개"
+        li.news
+          = link_to "병원소식"
+        li.customer-service
+          = link_to "고객서비스"
       ul.member
-        li.log-in 로그인
-        li.join 회원가입
+        li.log-in
+          = link_to "로그인"
+        li.join
+          = link_to "회원가입"
       ul.social
         li.facebook
           = link_to image_tag("icon_facebook.png"), "#"
         li.twitter
           = link_to image_tag("icon_twitter.png"), "#"
 
-  .snb
+  .snb.white
     nav role="snb"
       ul
         li
