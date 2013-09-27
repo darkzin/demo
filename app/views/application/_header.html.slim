@@ -1,5 +1,5 @@
-header#header.white-white
-  .gnb.white
+header#header
+  .gnb.blue
     nav role="gnb"
       = link_to image_tag("logo_splant_white.png"), root_path, class: "logo"
       ul.main
@@ -30,14 +30,10 @@ header#header.white-white
     nav role="snb"
       ul
         li
-          = link_to "진료안내", "#"
+          = link_to "공지사항", "#"
         li
-          = link_to "찾아 오시는 길", "#"
+          = link_to "학술연구활동", "#"
         li
-          = link_to "둘러보기", "#"
+          = link_to "이벤트", "#"
         li
-          = link_to "증명서 발급", "#"
-        li
-          = link_to "사보험 진료", "#"
-        li
-          = link_to "외국인 진료", "#"
+          = link_to "에스플란트 인사이드", demo_sub_path

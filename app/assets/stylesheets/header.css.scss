@@ -56,6 +56,9 @@
         margin-right: 10px;
       }
     }
+    a, a:visited, a:hover {
+      text-decoration: none;
+      }
   }
 
   .menu-bar {
@@ -83,6 +86,10 @@
           font-weight:none;
           color: rgb(255, 255, 255);
           text-decoration: none;
+        }
+
+        a:hover {
+          color: #FFEA00;
         }
       }
     }
